@@ -42,7 +42,7 @@ function draw() {
 
 function circlePos(color){
   var xCoord = map(color, 0, 255, 0, canvasSize);
-	var yCoord = random(0, canvasSize);
+	var yCoord = random(0, windowHeight);
 	ellipse(xCoord, yCoord, circleSize, circleSize);
 }
 
