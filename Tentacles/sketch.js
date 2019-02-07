@@ -34,7 +34,7 @@ function Tendril(){
   this.dirX = round(random()) * 2 - 1;
   this.dirY = round(random()) * 2 - 1;
   this.draw = function(){
-    fill(map(this.x, 0, windowWidth, 0, 255), random(0,255), random(0,255));
+    fill(random(0,255), random(0,255), map(this.x, 0, windowWidth, 0, 255));
   	ellipse(this.x, this.y, circleSize, circleSize);
     this.x = this.x + random(circleSize/4 ,circleSize/4 * 3) * this.dirX;
  	  this.y = this.y + random(circleSize/4 ,circleSize/4 * 3) * this.dirY;
