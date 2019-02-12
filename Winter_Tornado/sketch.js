@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   clear();
-  fill(0, 100, 50);
+  fill(200, 100, 50);
   for(let i = 0; i < circles.length; i++){
     circles[i].update();
   }
