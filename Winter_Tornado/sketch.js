@@ -64,3 +64,7 @@ function Circo(){
   }
   
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
