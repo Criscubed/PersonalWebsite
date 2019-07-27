@@ -2,3 +2,7 @@ body {
 	background: #baddad;
 	font-family: Helvetica;
 }
+
+a {
+	color: black;
+}
